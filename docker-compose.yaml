@@ -4,7 +4,7 @@ services:
       context: ./builds/angular
     working_dir: /app
     volumes:
-      - ./src/frontend:/app
+      - ./src:/app
   backend:
     build:
       context: ./builds/nestjs
