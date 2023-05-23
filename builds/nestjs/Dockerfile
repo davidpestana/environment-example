@@ -1,2 +1,2 @@
 FROM node:latest
-RUN npm install -g -qqy @nestjs
+RUN npm install -g -qqy @nestjs/cli
